@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                           '3200 CAD',
                           style: TextStyle(
                             fontFamily: 'Inter',
-                            color: Colors.white,
+                            color: Colors.black,
                             fontSize: 14,
                           ),
                         ),
@@ -95,9 +95,9 @@ class _HomePageState extends State<HomePage> {
                           margin: const EdgeInsets.only(left: 10),
                           height: double.infinity,
                           alignment: Alignment.topLeft,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                               borderRadius:
-                                  const BorderRadius.all(Radius.circular(25))
+                                  BorderRadius.all(Radius.circular(25))
                           ),
                           child: Image.asset(
                             'assets/images/image.jpg',
